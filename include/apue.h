@@ -24,7 +24,9 @@
 #include <stddef.h>		/* for offsetof */
 #include <string.h>		/* for convenience */
 #include <unistd.h>		/* for convenience */
-#include <signal.h>		/* for SIG_ERR */
+#include <signal.h>
+#include "myerr.h"		
+				/* for SIG_ERR */
 
 #define	MAXLINE	4096			/* max line length */
 
